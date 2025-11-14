@@ -1,0 +1,20 @@
+bot:
+  token: "8384638252:AAEKvnCzDu44ubpZyoo1niYdQk96s2h04Yw"
+  chat_id: -1003232557542
+
+crawling:
+  interval_seconds: 60
+  targets:
+    - name: ppomppu
+      class: PpomppuCrawler
+      url: "https://www.ppomppu.co.kr/zboard.php?id=ppomppu"
+    - name: ruliweb
+      class: RuliwebCrawler
+      url: "https://bbs.ruliweb.com/market/board/1020"
+    - name: clien
+      class: ClienCrawler
+      url: "https://www.clien.net/service/board/jirum"
+    - name: quasarzone
+      class: QuasarzoneCrawler
+      url: "https://quasarzone.com/bbs/qb_saleinfo"
+
