@@ -2,7 +2,7 @@ def is_pc_part(title: str, content: str = "") -> bool:
     text = f"{title} {content}".lower()
 
     PC = [
-        "그래픽카드","gpu","vga","rtx","gtx","radeon","rx",
+        "그래픽카드","gpu","vga","rtx","radeon","rx",
         "cpu","라이젠","ryzen","i5","i7","i9","intel",
         "램","ram","ddr4","ddr5",
         "ssd","nvme","하드","hdd",
