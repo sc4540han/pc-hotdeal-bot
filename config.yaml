@@ -3,7 +3,7 @@ bot:
   chat_id: -1003232557542
 
 crawling:
-  interval_seconds: 60
+  interval_seconds: 30
   targets:
     - name: ppomppu
       class: PpomppuCrawler
