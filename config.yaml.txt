@@ -18,6 +18,10 @@ crawling:
     - name: quasarzone
       class: QuasarzoneCrawler
       url: "https://quasarzone.com/bbs/qb_saleinfo"
+    - name: Amazon
+      url: ""
+    - name: alive
+      url: "https://arca.live/b/hotdeal"
 
 discord:
   channel_id: 0  # Replace with your Discord channel ID
